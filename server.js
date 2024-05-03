@@ -12,7 +12,7 @@ app.use(bodyparser.urlencoded({extended:false}))
 //enable CORS -> Cross Origine Resource Sharing -> communication among various ports
 app.use(cors())
 //create port
-let port = process.env.PORT || 8086
+let port = process.env.PORT || 3000
 //import fetch insert update delete modules
 let fetch = require('./fetch/fetch')
 let insert = require('./insert/insert')
